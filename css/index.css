@@ -8,6 +8,11 @@ body {
 }
 
 
+header {
+    background-image: url(/img/back-img.jpg) !important;
+    
+}
+
 /* 페이지 구현을 위한 공통의 클래스 사용! */
 
 main .main-txt {
