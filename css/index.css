@@ -1,0 +1,611 @@
+@charset "utf-8";
+
+/* 보이는 화면 기준으로!!! */
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 페이지 구현을 위한 공통의 클래스 사용! */
+
+main .main-txt {
+    width: 50%;
+    margin-top: 460px;
+    padding-left: 15%;
+    box-sizing: border-box;
+
+}
+
+.main-txt,
+.bg {
+    float: left;
+}
+
+main .main-txt h2 {
+    font-family: 'MaruBuriBold';
+    font-size: 70px;
+    color: #3E3A39;
+
+
+}
+
+main .main-txt p {
+    font-family: 'MaruBuriSemiBold';
+    font-size: 42px;
+    color: #3e3a39db;
+}
+
+main .bg {
+    width: 48%;
+    margin-top: 80px;
+}
+
+main .bg img {
+    display: block;
+    width: 100%;
+
+}
+
+
+/*section 시작 **** */
+
+section {
+    overflow: hidden;
+    position: relative;
+}
+
+.bean {
+
+    float: left;
+    width: 50%;
+    margin-top: 30px;
+}
+
+.bean .view {
+
+    width: 80%;
+    overflow: hidden;
+
+}
+
+.bean .view ul {
+    width: 400%;
+
+    position: relative;
+}
+
+.bean .view ul li {
+
+    text-align: center;
+    width: 25%;
+}
+
+.bean .view ul li .img-box {
+    width: 100%;
+}
+
+.bean .view ul li img {
+    width: 100%;
+    display: block
+}
+
+.bean .view ul li .txt-box {
+    margin-top: 42px;
+}
+
+.bean .view ul li .txt-box h4 {
+    font-family: 'MaruBuriBold';
+    font-size: 24px;
+    margin-bottom: 12px;
+}
+
+.bean .view ul li .txt-box p {
+    font-size: 18px;
+}
+
+.bean .view ul li .txt-box p b {
+    font-size: 22px;
+}
+
+.bean .pager {
+
+    position: absolute;
+    transform: translateX(290%);
+    margin-top: 20px;
+
+    font-size: 14px;
+}
+
+.bean .pager li {
+    border: 1px solid #3E3A39;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.bean .pager li~li {
+    margin-left: 4px;
+}
+
+.bean .pager li a {
+    color: #3e3a3900;
+
+}
+
+.bean .pager li.on {
+    background-color: #3E3A39;
+}
+
+
+.bean .more {
+    margin-top: 83px;
+    text-align: center;
+    transform: translateX(205%);
+    display: inline-block;
+    font-size: 16px;
+}
+
+.bean .more a {
+    font-size: 16px;
+    color: #3E3A39;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-bottom: 1px solid #3E3A39;
+}
+
+
+.bean .more a:hover {
+    background-color: #A88E65;
+    border-bottom: none;
+    border-radius: 5px;
+    font-weight: bold;
+
+    color: #574906;
+}
+
+
+
+.txt {
+    float: right;
+    width: 50%;
+    margin-top: 30px;
+}
+
+.txt .letter {}
+
+.txt .letter h3 {
+    display: inline-block;
+    font-size: 36px;
+    padding-bottom: 4px;
+    border-bottom: 1px solid #3E3A39;
+}
+
+.txt .letter .txt-box {
+    margin-top: 30px;
+    padding-bottom: 40px;
+
+    border-bottom: 1px solid #3E3A39;
+}
+
+.txt .letter .txt-box p {
+    font-size: 17px;
+}
+
+.txt .letter .txt-box p b {
+    font-size: 18px;
+}
+
+.txt .letter .txt-box h5 {
+    font-size: 44px;
+    margin-bottom: 16px;
+}
+
+.txt .letter .txt-box p:first-child {
+    font-size: 20px;
+}
+
+
+.sud-con {
+    margin: 40px auto 0;
+}
+
+.sud-con .con {
+    float: left;
+    width: 50%;
+}
+
+.sud-con .con:last-child {
+    float: right;
+}
+
+.sud-con .con .con-img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.sud-con .con a img {
+    width: 100%;
+    display: block;
+}
+
+.sud-con .con .sub-txt {
+    margin-top: 12px;
+    text-align: center;
+}
+
+.sud-con .con .sub-txt h6 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.sud-con .con .sub-txt p {
+    font-size: 17px;
+    font-family: 'MaruBuriSemiBold';
+
+}
+
+.sud-con .con .click {
+    margin-top: 18px;
+    text-align: center;
+
+
+}
+
+.sud-con .con .click a {
+    color: #3E3A39;
+    border-bottom: 1px solid #3E3A39;
+    padding: 4px 8px;
+}
+
+
+.sud-con .con .click a:hover {
+    background-color: #A88E65;
+    border-bottom: none;
+    border-radius: 5px;
+    font-weight: bold;
+
+    color: #574906;
+}
+
+
+
+
+.banner {
+    width: 100%;
+    max-width: 1920px;
+
+    height: 14%;
+    background-image: url(../img/banner-1.png);
+    background-repeat: no-repeat;
+
+    position: absolute;
+    top: 86%;
+    left: 0;
+
+}
+
+.banner .banne-box {}
+
+.banner a .banner-txt {
+transform: translateY(50%);
+}
+
+.banner a .banner-txt p {
+    font-size: 12px;
+    font-family: 'MaruBuriLight';
+    font-weight: bold;
+    color: #d9d9d9;
+}
+
+.banner a .banner-txt h4 {
+    font-size: 17px;
+    font-weight: bold;
+    color: #d9d9d9;
+}
+
+.banner a .banner-txt h4 span {
+    color: #A88E65;
+    font-size: 20px;
+}
+
+/* *******.roasting****** */
+
+
+.losting>.man,
+.txt {
+    float: left;
+    width: 50%;
+    margin-top: 30px;
+}
+
+
+
+.man-box {
+    width: 90%;
+
+}
+
+.man-box img {
+    width: 100%;
+    display: block;
+}
+
+.losting>.txt {
+    margin-top: 190px;
+}
+
+.losting>.txt .time {}
+
+.losting>.txt .time p {
+    font-size: 80px;
+    font-family: 'MaruBuriBold';
+    display: inline-block;
+
+    margin-top: 10px;
+    padding: 8px 18px;
+    background-color: #B69F7A;
+    border-radius: 10px;
+}
+
+.losting>.txt .letter .txt-box {
+    border-bottom: none;
+}
+
+.losting>.more {
+    float: right;
+    margin-top: 20px;
+
+}
+
+.losting>.more a {
+    color: #3E3A39;
+    padding: 8px 10px;
+    border-bottom: 1px solid #3E3A39;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.losting>.more a:hover {
+    background-color: #A88E65;
+    border-bottom: none;
+    border-radius: 5px;
+    font-weight: bold;
+
+    color: #574906;
+}
+
+
+/* ceo 영상******************** */
+
+.video>.show,
+.txt {
+    float: left;
+    width: 50%;
+    margin-top: 30px;
+}
+
+.video .show .show-box {
+    width: 90%;
+    display: none;
+
+    transform: translateY(40%);
+
+}
+
+.video>.show .show-box:first-child {
+    display: block;
+}
+
+.video .show .show-box iframe {
+    display: block;
+    width: 560px;
+    height: 380px;
+}
+
+.video>.txt {
+    transform: translateY(15%);
+}
+
+
+.you-con {
+    margin-top: 40px;
+}
+
+.you-con .recipy {
+    float: left;
+    width: 30.6666%;
+}
+
+.you-con .recipy~.recipy {
+    margin-left: 4%;
+}
+
+.you-con .recipy img {
+    width: 100%;
+    display: block;
+}
+
+.you-con .recipy .recipy-txt {
+    margin-top: 12px;
+    text-align: center;
+}
+
+.you-con .recipy .recipy-txt h6 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.you-con .recipy .recipy-txt p {
+    font-size: 17px;
+    font-family: 'MaruBuriSemiBold';
+}
+
+.you-con .button1 {
+    font-size: 17px;
+    font-family: 'MaruBuriSemiBold';
+    text-align: center;
+    margin-top: 20px;
+}
+
+.you-con .button1 a {
+
+    color: #3E3A39;
+    display: inline-block;
+    padding: 4px 8px;
+    border-bottom: 1px solid #3E3A39;
+}
+
+.you-con .button1 a:hover {
+    background-color: #A88E65;
+    border-bottom: none;
+    border-radius: 5px;
+    font-weight: bold;
+
+    color: #422a03;
+}
+
+
+.you-con .button2 {
+    font-size: 17px;
+    font-family: 'MaruBuriSemiBold';
+    text-align: center;
+    margin-top: 20px;
+}
+
+.you-con .button2 a {
+
+    color: #3E3A39;
+    display: inline-block;
+    padding: 4px 8px;
+    border-bottom: 1px solid #3E3A39;
+}
+
+.you-con .button2 a:hover {
+    background-color: #A88E65;
+    border-bottom: none;
+    border-radius: 5px;
+    font-weight: bold;
+
+    color: #422a03;
+}
+
+
+.you-con .button3 {
+    font-size: 17px;
+    font-family: 'MaruBuriSemiBold';
+    text-align: center;
+    margin-top: 20px;
+}
+
+.you-con .button3 a {
+
+    color: #3E3A39;
+    display: inline-block;
+    padding: 4px 8px;
+    border-bottom: 1px solid #3E3A39;
+}
+
+.you-con .button3 a:hover {
+    background-color: #A88E65;
+    border-bottom: none;
+    border-radius: 5px;
+    font-weight: bold;
+
+    color: #422a03;
+}
+
+
+/* 인스타그램 */
+
+.sns {
+    text-align: center;
+}
+
+.sns>.txt {
+
+    float: none;
+    margin: 40px auto 0;
+}
+
+.instar .instar-view {
+    width: 100%;
+    margin-top: 110px;
+    overflow-x: hidden;
+}
+
+.instar .instar-view ul {
+    width: 200%;
+    position: relative;
+    left: 0;
+}
+
+.instar .instar-view ul li {
+
+    width: 10%;
+    float: left;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.instar .instar-view ul li img {
+    width: 100%;
+    display: block;
+
+}
+
+/* 페이저 내비게이션 */
+
+.side-pager {
+    position: fixed;
+    top: 20%;
+    transform: translateY(50%);
+    right: 10%;
+}
+.side-pager ul li {
+    float: none;
+    margin: 10px 0;
+}
+.side-pager ul li a {
+    display: block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #AF8F6F;
+    border-radius: 50%;
+    box-sizing: border-box;
+
+    position: relative; 
+}
+.side-pager ul li a span {
+    color: #543310;
+display: block;
+font-size: 16px;
+font-weight: bold;
+
+position: absolute;
+left: 200%;
+top: -6px;
+
+width: 100px;
+letter-spacing: 2px;
+
+display: none;
+}
+.side-pager ul li a:hover span {
+    display: block;
+}
+
+.side-pager ul li.on a {
+    background-color:  #AF8F6F;
+}
+.side-pager ul li.on a span {
+    display: block;
+}
+
+
+
+
+
+
+
