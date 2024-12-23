@@ -1,0 +1,415 @@
+@charset "utf-8";
+
+
+.name {
+    margin-top: 100px;
+    height: 300px;
+    background-color: #c9a97882;
+    text-align: center;
+}
+
+.name>div h2 {
+
+    font-family: 'MaruBuriSemiBold';
+    font-size: 40px;
+
+    display: inline-block;
+    transform: translateY(89%);
+}
+
+.name h2 span {
+    font-family: 'MaruBuriSemiBold';
+    font-size: 22px;
+}
+
+.content {
+    text-align: center;
+}
+
+.content .gnb-box {
+    padding: 40px 0;
+
+}
+
+.content .gnb-box::after {
+    content: "";
+    display: block;
+    width: 60%;
+    height: 1px;
+    background-color: #3E3A39;
+
+
+    margin: 30px auto 0;
+}
+
+.gnb-box .local-gnb {
+    display: inline-block;
+}
+
+.gnb-box .local-gnb li {
+    height: 38px;
+    line-height: 38px;
+    font-family: 'MaruBuriSemiBold';
+    font-size: 20px;
+}
+
+.content .gnb-box .local-gnb li~li::before {
+    content: "/";
+    margin: 0 10px;
+}
+
+
+.content .gnb-box .local-gnb li.on {
+    font-family: 'MaruBuriSemiBold';
+    font-size: 28px;
+
+}
+
+
+.content .gnb-box .local-gnb li a {
+    color: #5a5453db;
+}
+
+.content .gnb-box .local-gnb li.on a {
+    color: #3E3A39;
+}
+
+
+/* 본문 시작! */
+
+
+.bg {
+   background-image: url(../img/bg-bottom.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+background-size: 100% 60%;
+} 
+
+#menu {
+   /*  outline: 1px solid salmon; */
+    width: 100%;
+  
+}
+
+#menu .viewer {
+   /*  outline: 1px solid rgb(63, 24, 134); */
+    width: 30%;
+    margin: 90px auto;
+    height: 540px;
+}
+
+#menu .viewer .box-wrap {
+    position: relative;
+}
+
+#menu .viewer li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#menu .viewer li.co1 {
+    left: -200%;
+    transform: scale(0.6);
+    opacity: 0.5;
+}
+
+#menu .viewer li.co2 {
+    left: -110%;
+    transform: scale(0.8);
+    opacity: 0.7;
+
+}
+
+#menu .viewer li.co3 {
+    left: 0;
+    transform: (1);
+}
+
+#menu .viewer li.co4 {
+    left: 110%;
+    transform: scale(0.8);
+    opacity: 0.7;
+}
+
+#menu .viewer li.co5 {
+    left: 200%;
+    transform: scale(0.6);
+    opacity: 0.5;
+}
+
+#menu .viewer li .img-box {
+/*     outline: 2px solid plum; */
+    width: 100%;
+    margin: 0 auto 20px;
+}
+
+#menu .viewer li .img-box img {
+    width: 100%;
+    display: block;
+}
+
+#menu .viewer li .caption { 
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+    position: relative;
+    display: none;
+}
+
+#menu .viewer li h3 {
+    font-size: 26px;
+    margin-bottom: 4px;
+}
+
+#menu .viewer li p {
+    font-size: 17px;
+    font-family: 'MaruBuriSemiBold';
+    margin-bottom: 12px;
+}
+
+
+#menu .viewer li p b {
+    font-family: 'MaruBuriBold';
+    font-size: 18px;
+ }
+
+ #menu .viewer li p select {
+
+    width: 41%;
+
+    font-size: 20px;
+    border: 2px solid #BEA987;
+    margin-top: 20px;
+ }
+
+#menu .viewer li h4 {
+    font-size: 24px;
+/*     border-bottom: 2px solid #3E3A39; */
+    margin-top: 20px;
+    margin-bottom: 4px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+
+#menu .viewer li a {
+    display: block;
+    font-size: 16px;
+    color: #3E3A39;
+    padding: 4px 12px;
+    width: 17%;
+    margin: 0 auto;
+
+    font-weight: bold;
+    color: #3E3A39;
+}
+
+#menu .viewer li a::after {
+    content: "";
+    width: 80%;
+    height: 2px;
+    background-color: #3E3A39;
+    display: inline-block;
+}
+
+#menu .viewer li a:hover {
+    background-color: #774C09;
+    color: #BEA987;
+}
+
+/* 버튼~ */
+
+#menu .menu-btn {
+
+    position: absolute;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 130%;
+}
+
+#menu .menu-btn img {
+    width: 30px;
+    display: block;
+    cursor: pointer;
+}
+
+#menu .menu-btn img.btn-prev {
+    float: left;
+}
+#menu .menu-btn img.btn-next {
+    float: right;
+}
+
+/* ********* */
+
+.bg2 {
+    background-image: url(../img/bg-bottom.png);
+     background-repeat: no-repeat;
+     background-position: bottom;
+     background-size: 100% 41%;
+ } 
+ 
+ #menu2 {
+    /*  outline: 1px solid salmon; */
+     width: 100%;
+   
+ }
+ 
+ #menu2 .viewer {
+    /*  outline: 1px solid rgb(63, 24, 134); */
+     width: 30%;
+     margin: 90px auto;
+     height: 540px;
+ }
+ 
+ #menu2 .viewer .box-wrap {
+     position: relative;
+ }
+ 
+ #menu2 .viewer li {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+ }
+ 
+ #menu2 .viewer li.co1 {
+     left: -200%;
+     transform: scale(0.6);
+     opacity: 0.5;
+ }
+ 
+ #menu2 .viewer li.co2 {
+     left: -110%;
+     transform: scale(0.8);
+     opacity: 0.7;
+ 
+ }
+ 
+ #menu2 .viewer li.co3 {
+     left: 0;
+     transform: (1);
+ }
+ 
+ #menu2 .viewer li.co4 {
+     left: 110%;
+     transform: scale(0.8);
+     opacity: 0.7;
+ }
+ 
+ #menu2 .viewer li.co5 {
+     left: 200%;
+     transform: scale(0.6);
+     opacity: 0.5;
+ }
+ 
+ #menu2 .viewer li .img-box {
+ /*     outline: 2px solid plum; */
+     width: 100%;
+     margin: 0 auto 20px;
+ }
+ 
+ #menu2 .viewer li .img-box img {
+     width: 100%;
+     display: block;
+ }
+ 
+ #menu2 .viewer li .caption { 
+     width: 100%;
+     margin: 0 auto;
+     text-align: center;
+ 
+     position: relative;
+     display: none;
+ }
+ 
+ #menu2 .viewer li h3 {
+     font-size: 26px;
+     margin-bottom: 4px;
+ }
+ 
+ #menu2 .viewer li p {
+     font-size: 17px;
+     font-family: 'MaruBuriSemiBold';
+     margin-bottom: 12px;
+ }
+ 
+ 
+ #menu2 .viewer li p b {
+     font-family: 'MaruBuriBold';
+     font-size: 18px;
+  }
+ 
+  #menu2 .viewer li p select {
+ 
+     width: 41%;
+ 
+     font-size: 20px;
+     border: 2px solid #BEA987;
+     margin-top: 20px;
+  }
+ 
+ #menu2 .viewer li h4 {
+     font-size: 24px;
+ /*     border-bottom: 2px solid #3E3A39; */
+     margin-top: 20px;
+     margin-bottom: 4px;
+     display: inline-block;
+     font-weight: bold;
+ }
+ 
+ 
+ #menu2 .viewer li a {
+     display: block;
+     font-size: 16px;
+     color: #3E3A39;
+     padding: 4px 12px;
+     width: 17%;
+     margin: 0 auto;
+ 
+     font-weight: bold;
+     color: #3E3A39;
+ }
+ 
+ #menu2 .viewer li a::after {
+     content: "";
+     width: 80%;
+     height: 2px;
+     background-color: #3E3A39;
+     display: inline-block;
+ }
+ 
+ #menu2 .viewer li a:hover {
+     background-color: #774C09;
+     color: #BEA987;
+ }
+ 
+
+ /* 버튼~ */
+ 
+ #menu2 .menu-btn2 {
+ 
+     position: absolute;
+     top: 120px;
+     left: 50%;
+     transform: translateX(-50%);
+     width: 126%;
+ }
+ 
+ #menu2 .menu-btn2 img {
+     width: 30px;
+     display: block;
+     cursor: pointer;
+ }
+ 
+ #menu2 .menu-btn2 img.btn-prev2 {
+     float: left;
+ }
+ #menu2 .menu-btn2 img.btn-next2 {
+     float: right;
+ }
+ 

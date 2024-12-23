@@ -1,0 +1,258 @@
+@charset "utf-8";
+
+
+.name {
+    width: 100%;
+    margin-top: 100px;
+    height: 300px;
+    background-color: #c9a97882;
+    text-align: center;
+}
+
+.name>div h2 {
+
+    font-family: 'MaruBuriSemiBold';
+    font-size: 40px;
+
+    display: inline-block;
+    transform: translateY(89%);
+}
+
+.name h2 span {
+    font-family: 'MaruBuriSemiBold';
+    font-size: 22px;
+}
+
+.content {
+    text-align: center;
+}
+
+.content .gnb-box {
+    padding: 40px 0;
+
+}
+
+.content .gnb-box::after {
+    content: "";
+    display: block;
+    width: 60%;
+    height: 1px;
+    background-color: #3E3A39;
+
+
+    margin: 30px auto 0;
+}
+
+.gnb-box .local-gnb {
+    display: inline-block;
+}
+
+.gnb-box .local-gnb li {
+    height: 38px;
+
+}
+
+.content .gnb-box .local-gnb li~li::before {
+    content: "/";
+    margin: 0 10px;
+}
+.content .gnb-box .local-gnb li.on {
+    font-family: 'MaruBuriSemiBold';
+    font-size: 28px;
+
+}
+
+.content .gnb-box .local-gnb li {
+    line-height: 38px;
+    font-family: 'MaruBuriSemiBold';
+    font-size: 20px;
+
+}
+
+.content .gnb-box .local-gnb li a {
+    color: #5a5453db;
+}
+.content .gnb-box .local-gnb li.on a {
+    color: #3E3A39;
+}
+
+
+/* 본문 시작~ */
+
+
+.intro {
+    width: 100%;
+    max-width: 1920px;
+
+    height: 370px;
+
+    background-image: url(../img/back-4.png);
+
+    color: #f8f8f8;
+}
+
+.intro>article {
+    display: inline-block;
+    transform: translateY(100%);
+}
+
+.intro>article h4 {
+    font-size: 24px;
+    font-family: 'MaruBuriSemiBold';
+    margin-bottom: 40px;
+}
+
+.intro>article p {
+    font-size: 18px;
+    font-family: 'MaruBuriExtraLight';
+}
+
+
+
+.choice {
+    margin-top: 90px;
+}
+
+.choice .conent-inner>p {
+    font-size: 12px;
+    font-weight: bold;
+    color: #3E3A39;
+    text-align: left;
+}
+
+.step {
+    margin: 60px 0;
+    padding: 40px 0;
+
+    border-bottom: 1px solid #3e3a39;
+}
+
+.step .step-box {
+    width: 15%;
+    transform: translateY(50%);
+    text-align: left;
+}
+
+.step .step-box h6 {
+    color: #774C09;
+    font-size: 18px;
+
+}
+
+.step .step-box h4 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 20px 0;
+
+}
+
+.step .step-box p {
+    font-size: 14px;
+
+
+}
+
+.step .list {
+    width: 85%;
+}
+
+.step .list li {
+    width: 22%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.step .list li>p {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18px;
+    font-family: 'MaruBuriSemiBold';
+}
+
+.step .list li~li {
+    margin-left: 2%;
+}
+
+.step .list li:first-child {
+    margin-left: 6%;
+}
+
+.step .list li img {
+    width: 100%;
+    display: block;
+}
+
+.step .step-box,
+.list {
+    float: left;
+}
+
+.step .list li .caption-bean {
+    width: 100%;
+    height: 75%;
+    background-color: #3e3a39cb;
+    color: #f8f8f8f8;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    display: none;
+}
+
+.step .list li .caption-bean .txt-bean {
+    display: inline-block;
+    transform: translateY(25%);
+}
+
+.step .list li .caption-bean h5 {
+    font-size: 20px;
+}
+
+.step .list li .caption-bean h6 {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.step .list li .caption-bean p {
+    font-size: 16px;
+}
+
+.step .list .caption p {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 18px;
+    font-family: 'MaruBuriSemiBold';
+}
+
+.pay {
+    margin: 90px 0 50px;
+    display: inline-block;
+    transform: translateY(-50%);
+}
+
+.pay p {
+    font-size: 36px;
+    font-weight: bold;
+    border-bottom: 2px solid #3e3a39;
+}
+
+.no {
+    display: none;
+}
+.pay a {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 20px 12px;
+    background-color: #BEA987;
+    color: #3E3A39;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.pay  a:hover {
+background-color: #774C09;
+color: #BEA987;
+}

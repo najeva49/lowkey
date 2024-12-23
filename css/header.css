@@ -18,9 +18,6 @@ header {
     z-index: 9999;
 }
 
-header .inner {
- border-bottom: 0.5px solid #3E3A39; 
-}
 
 header .logo {
     position: absolute;
@@ -73,9 +70,10 @@ header nav .gnb li .lnb {
     background-color: #af8f6f;
     width: 130px;
     overflow: hidden;
+    border-radius: 5px;
 
     position: absolute;
-    top: 100%;
+    top: 124%;
     transform: translateY(-20px);
 
    display: none; 
@@ -89,7 +87,7 @@ header nav .gnb li .lnb li {
 
 header nav .gnb li .lnb li a {
     padding: 16px 13px;
-    color: #7a6344;
+    color: #3E3A39;
     font-size: 18px;
     font-family: 'MaruBuriSemiBold';
     letter-spacing: -1px;

@@ -1,0 +1,136 @@
+body {
+    background-image: url(../img/bg-farm.png);
+    max-width: 1920px;
+    margin: 0 aitp;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+.name {
+    margin-top: 60px;
+    height: 200px;
+
+    text-align: center;
+}
+
+.name>div {
+    display: inline-block;
+    transform: translateY(100%);
+}
+
+.name>div h2 {
+
+    font-family: 'MaruBuriSemiBold';
+    font-size: 40px;
+
+
+}
+
+.name p {
+    font-family: 'MaruBuriSemiBold';
+    font-size: 18px;
+}
+
+.content {
+    text-align: center;
+}
+
+.content .gnb-box {
+    padding: 20px 0;
+
+}
+
+.content .gnb-box::after {
+    content: "";
+    display: block;
+    width: 60%;
+    height: 1px;
+    background-color: #3E3A39;
+
+
+    margin: 30px auto 0;
+}
+
+.gnb-box .local-gnb {
+    display: inline-block;
+    transform: translateY(50%);
+}
+
+
+.content .gnb-box .local-gnb li a {
+    line-height: 38px;
+    font-family: 'MaruBuriSemiBold';
+    font-size: 28px;
+    color: #3e3a39;
+
+}
+
+/* 본문 시작~ */
+
+
+section .letter {
+    width: 76%;
+    margin: 75px auto;
+    background-color: #3e3a39c2;
+    border-radius: 5px;
+    padding: 20px 80px;
+
+    color: #f8f8f8;
+}
+
+section .letter .txt-box {
+    display: none;
+}
+
+section .letter .ne {
+    display: block;
+}
+
+section .letter .txt-box h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+section .letter .txt-box p {
+    font-size: 18px;
+    margin-top: 20px;
+    font-family: 'MaruBuriLight';
+}
+
+section .coffee {
+    width: 100%;
+    color: #f8f8f8;
+    text-align: center;
+}
+section .coffee h4 {
+    display: inline-block;
+    font-size: 26px;
+    font-family: 'MaruBuriSemiBold';
+    padding: 20px 0;
+
+    border-top: 1px solid #f8f8f8;
+
+}
+section .coffee ul {
+    width: 100%;
+    padding-bottom: 40px;
+border-bottom: 1px solid #f8f8f8;
+    margin-bottom: 140px;
+}
+section .coffee ul li {
+    float: left;
+    width: 23.5%;
+}
+
+section .coffee ul li~li {
+    margin-left: 2%;
+}
+section .coffee ul li a img {
+    width: 100%;
+    display: block;
+}
+
+

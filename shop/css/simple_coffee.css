@@ -1,0 +1,201 @@
+@charset "utf-8";
+
+
+
+
+
+.name {
+    margin-top: 100px;
+    height: 300px;
+    background-color: #c9a97882;
+    text-align: center;
+}
+
+.name>div h2 {
+
+    font-family: 'MaruBuriSemiBold';
+    font-size: 40px;
+
+    display: inline-block;
+    transform: translateY(89%);
+}
+
+.name h2 span {
+    font-family: 'MaruBuriSemiBold';
+    font-size: 22px;
+}
+
+.content {
+    text-align: center;
+}
+
+.conent-inner2 { 
+    width: 60%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+.content .gnb-box {
+    padding: 40px 0;
+
+}
+
+.content .gnb-box::after {
+    content: "";
+    display: block;
+    width: 60%;
+    height: 1px;
+    background-color: #3E3A39;
+
+
+    margin: 30px auto 0;
+}
+
+.gnb-box .local-gnb {
+    display: inline-block;
+}
+
+.gnb-box .local-gnb li {
+    height: 38px;
+    line-height: 38px;
+    font-family: 'MaruBuriSemiBold';
+    font-size: 20px;
+}
+
+
+.content .gnb-box .local-gnb li a {
+    color: #3E3A39;
+}
+
+
+/* 본문 시작~ */
+
+section {
+    width: 100%;
+    position: relative;
+}
+section .slide-box { 
+    width: 1280px;
+    margin: 0 auto;
+
+
+overflow: hidden;
+}
+
+.slide-box .gallery {    outline: 3px solid palegreen;
+    width: 400%;
+
+    position: relative; 
+    left: 0;
+}
+
+.slide-box .gallery li {
+    float: left;
+    width: 25%;
+}
+
+
+.slide-box .gallery li img {
+    width: 100%; 
+    display: block;
+}
+
+.pager {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.pager li {
+    display: inline-block;
+    font-size: 20px;
+}
+
+.pager li~li {
+    margin-left: 6px;
+}
+/* shop시작 */
+
+.goods {
+    margin-bottom: 90px;
+}
+.goods > article {
+    background-image: url(../img/bg-bottom.png);
+    background-size: 100% 40%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+.product {
+    margin-top: 70px;
+    text-align: left;
+}
+.product h4 {
+    line-height: 80px;
+    font-size: 24px;
+    font-family: 'MaruBuriBold';
+}
+.product ul {
+    width: 100%;
+}
+.product ul li {
+    float: left;
+    width: 20.5%;
+
+}
+.product ul li~li {
+margin-left: 6%;
+}
+.product ul li .img-box {
+    width: 100%;
+    overflow: hidden;
+}
+.product ul li .img-box img {
+    width: 100%;
+    display: block;
+    transition: all 0.6s;
+}
+.product ul li .img-box img:hover {
+    transform: scale(1.2);
+}
+.product ul li .txt-box {
+ margin: 20px 0;
+}
+.product ul li .txt-box h5 {
+    font-size: 20px;
+    font-family: 'MaruBuriSemiBold';
+    color: #3E3A39;
+}
+.product ul li .txt-box p {
+    font-size: 16px;
+    color: #817D7D;
+    font-weight: bold;
+}
+.product ul li .pay-box {
+
+border-top: 2px solid #3E3A39;
+padding: 8px 0;
+}
+.product ul li .pay-box::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.product ul li .pay-box p {
+    font-size: 22px;
+    font-family: 'MaruBuriSemiBold';
+    color: #3E3A39;
+    float: left;
+}
+
+.product ul li .pay-box a {
+    float: right;
+    font-size: 18px;
+    color: #3E3A39;
+}
+
+.product ul li .pay-box a:hover {
+    background-color: #774C09;
+    color: #BEA987;
+}
