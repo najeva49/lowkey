@@ -143,7 +143,7 @@ section .coffee ul li a img {
     text-align: center;
 }
 .eve-btn a {
-    color: #3E3A39;
+    color: #f8f8f8;
     font-size: 20px;
     font-weight: bold;
     
@@ -156,6 +156,7 @@ section .coffee ul li a img {
     background-color: #774C09;
     color: #BEA987;
     border-bottom: 0px solid #f8f8f8;
+    border-radius: 5px;
 }
 
 
