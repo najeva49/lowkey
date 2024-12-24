@@ -202,6 +202,7 @@ background-size: 100% 60%;
     padding: 4px 12px;
     width: 17%;
     margin: 0 auto;
+    border-radius: 5px;
 
     font-weight: bold;
     color: #3E3A39;
@@ -218,6 +219,7 @@ background-size: 100% 60%;
 #menu .viewer li a:hover {
     background-color: #774C09;
     color: #BEA987;
+    border-radius: 5px;
 }
 
 /* 버튼~ */
@@ -373,6 +375,7 @@ background-size: 100% 60%;
  
      font-weight: bold;
      color: #3E3A39;
+     border-radius: 5px;
  }
  
  #menu2 .viewer li a::after {
@@ -386,6 +389,7 @@ background-size: 100% 60%;
  #menu2 .viewer li a:hover {
      background-color: #774C09;
      color: #BEA987;
+     border-radius: 5px;
  }
  
 
