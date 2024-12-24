@@ -226,19 +226,21 @@ width: 21.5%;
     margin-top: 90px;
     margin-bottom: 120px;
 
-    padding: 20px 12px;
-    background-color: #BEA987;
-
     display: inline-block;
 }
+
 .event .eve-btn a {
     color: #3E3A39;
     font-size: 16px;
     font-weight: bold;
+
+    padding: 20px 12px;
+    background-color: #BEA987;
+    border-radius: 5px;
 }
 
 .event .eve-btn a:hover {
     background-color: #774C09;
     color: #BEA987;
+    border-radius: 5px;
 }
-
