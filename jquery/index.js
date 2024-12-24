@@ -120,6 +120,39 @@ $(document).ready(function () {
 
     });
 
+
+    
+       /* 영역3 로스팅 시간 카운트 */
+
+       var countDownDate = new Date("Jan 1, 2025 15:37:25").getTime();
+
+       var x = setInterval(function() {
+       
+       
+         var now = new Date().getTime();
+       
+        
+         var distance = countDownDate - now;
+       
+       
+         var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+         var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+       
+       
+         document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+         + minutes + "m " + seconds + "s ";
+       
+        
+         if (distance < 0) {
+           clearInterval(x);
+           document.getElementById("demo").innerHTML = "EXPIRED";
+         }
+       }, 1000);
+
+       
+
     /* 영역 4 유튜브 */
 
     //이것의 형제 요소인 유 이미지를 패이드인 이것의 다른 형제들은 페이드 아웃 해줘줘
