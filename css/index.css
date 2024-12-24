@@ -343,7 +343,7 @@ transform: translateY(50%);
 .losting>.txt .time {}
 
 .losting>.txt .time p {
-    font-size: 70px;
+    font-size: 60px;
     font-family: 'MaruBuriBold';
     display: inline-block;
 
@@ -359,7 +359,7 @@ transform: translateY(50%);
 
 .losting>.more {
     float: right;
-    margin-top: 20px;
+    margin-top: 80px;
 
 }
 
