@@ -148,13 +148,14 @@ section .coffee ul li a img {
     font-weight: bold;
     
     padding: 12px 12px;
-    background-color: #ececec;
-    border-radius: 5px;
+    
+   border-bottom: 1px solid #f8f8f8;
 }
 
 .eve-btn a:hover {
     background-color: #774C09;
     color: #BEA987;
+    border-bottom: 0px solid #f8f8f8;
 }
 
 
