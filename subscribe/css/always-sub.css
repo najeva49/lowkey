@@ -250,9 +250,11 @@
     color: #3E3A39;
     font-size: 16px;
     font-weight: bold;
+    border-radius: 5px;
 }
 
 .pay  a:hover {
 background-color: #774C09;
 color: #BEA987;
+border-radius: 5px;
 }
