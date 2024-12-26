@@ -30,7 +30,7 @@ if(scTop > box2) {
     $('.box').eq(1).find('.img-box').animate({
          width : '50%'
     }, 1500, function(){
-       $('.box').eq(1).find('.txt').fadeIn(600);
+       $('.box').eq(1).find('.txt').fadeIn(500);
     });
 }
 
@@ -42,7 +42,7 @@ if(scTop > box3) {
     $('.box').eq(2).find('.img-box').animate({
          width : '50%'
     }, 1500, function(){
-       $('.box').eq(2).find('.txt').fadeIn(600);
+       $('.box').eq(2).find('.txt').fadeIn(500);
     });
 }
 
@@ -53,7 +53,7 @@ if(scTop > box4) {
     $('.box').eq(3).find('.img-box').animate({
          width : '50%'
     }, 1500, function(){
-       $('.box').eq(3).find('.txt').fadeIn(600);
+       $('.box').eq(3).find('.txt').fadeIn(500);
     });
 }
 
