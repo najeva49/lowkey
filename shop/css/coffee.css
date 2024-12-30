@@ -1,419 +1,458 @@
 @charset "utf-8";
 
 
-.name {
+.sub-top {
     margin-top: 100px;
     height: 300px;
     background-color: #c9a97882;
     text-align: center;
+
+    position: relative;
 }
 
-.name>div h2 {
+.sub-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sub-top .sec-title {
 
     font-family: 'MaruBuriSemiBold';
     font-size: 40px;
-
-    display: inline-block;
-    transform: translateY(89%);
 }
 
-.name h2 span {
+.sub-top p {
     font-family: 'MaruBuriSemiBold';
     font-size: 22px;
+    padding: 18px 0;
 }
 
 .content {
     text-align: center;
 }
 
-.content .gnb-box {
-    padding: 40px 0;
-
+.content .tab-menu {
+    margin: 40px auto;
 }
 
-.content .gnb-box::after {
+.content .tab-menu::after {
     content: "";
     display: block;
     width: 60%;
     height: 1px;
     background-color: #3E3A39;
 
-
     margin: 30px auto 0;
 }
 
-.gnb-box .local-gnb {
+
+.content .tab-menu ul {
     display: inline-block;
+    text-align: center;
 }
 
-.gnb-box .local-gnb li {
+
+
+.tab-menu ul li {
     height: 38px;
     line-height: 38px;
     font-family: 'MaruBuriSemiBold';
     font-size: 20px;
 }
 
-.content .gnb-box .local-gnb li~li::before {
+.tab-menu ul li~li::before {
     content: "/";
     margin: 0 10px;
 }
 
 
-.content .gnb-box .local-gnb li.on {
+.tab-menu ul li.on {
     font-family: 'MaruBuriSemiBold';
     font-size: 28px;
-
 }
 
 
-.content .gnb-box .local-gnb li a {
+.tab-menu ul li a {
     color: #5a5453db;
 }
 
-.content .gnb-box .local-gnb li.on a {
+.tab-menu ul li.on a {
     color: #3E3A39;
 }
 
 
 /* 본문 시작! */
 
+.tab-content {
+    margin-bottom: 120px;
+}
 
-.bg {
-   background-image: url(../img/bg-bottom.png);
+.tab-content>article {
+    /* outline: 1px solid rgb(193, 21, 58); */
+    /* background-color: yellow; */
+    /* background-image: url(../img/bg-bottom.png);
     background-repeat: no-repeat;
     background-position: bottom;
-background-size: 100% 60%;
-} 
+    background-size: 100% 60%; */
 
-#menu {
-   /*  outline: 1px solid salmon; */
+    background-image: url(../img/bg-bottom_2.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: auto 100%;
+    margin-top: 90px;
+}
+
+#menu1 {
+    /*  outline: 1px solid salmon; */
     width: 100%;
-  
+
+    padding-bottom: 80px;
 }
 
-#menu .viewer {
-   /*  outline: 1px solid rgb(63, 24, 134); */
-    width: 30%;
-    margin: 90px auto;
-    height: 540px;
-}
+#menu1 .viewer {
+    /*   outline: 3px solid rgb(63, 24, 134); */
+    /* width: 30%; */
+    width: 440px;
+    margin: 0 auto;
+    height: 510px;
+    /* 높이는 다시 설정 */
 
-#menu .viewer .box-wrap {
     position: relative;
 }
 
-#menu .viewer li {
+#menu1 .viewer .box-wrap {
+    /* position: relative; */
+}
+
+#menu1 .viewer li {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
 }
 
-#menu .viewer li.co1 {
+#menu1 .viewer li.co1 {
     left: -200%;
-    transform: scale(0.6);
-    opacity: 0.5;
+    transform: scale(0.5);
+    opacity: 0;
 }
 
-#menu .viewer li.co2 {
+#menu1 .viewer li.co2 {
     left: -110%;
-    transform: scale(0.8);
+    transform: scale(0.7);
     opacity: 0.7;
 
 }
 
-#menu .viewer li.co3 {
+#menu1 .viewer li.co3 {
     left: 0;
-    transform: (1);
+    transform: scale(1);
 }
 
-#menu .viewer li.co4 {
+#menu1 .viewer li.co4 {
     left: 110%;
-    transform: scale(0.8);
+    transform: scale(0.7);
     opacity: 0.7;
 }
 
-#menu .viewer li.co5 {
+#menu1 .viewer li.co5 {
     left: 200%;
-    transform: scale(0.6);
-    opacity: 0.5;
+    transform: scale(0.5);
+    opacity: 0;
 }
 
-#menu .viewer li .img-box {
-/*     outline: 2px solid plum; */
-    width: 100%;
-    margin: 0 auto 20px;
+#menu1 .viewer li .img-box {
+    /*     outline: 2px solid plum; */
+    /* width: 90%;
+    margin: 0 auto 20px; */
+
+    margin-bottom: 20px;
 }
 
-#menu .viewer li .img-box img {
+#menu1 .viewer li .img-box img {
     width: 100%;
     display: block;
 }
 
-#menu .viewer li .caption { 
+#menu1 .viewer li .caption {
+    /*   outline: 1px solid palegreen; */
     width: 100%;
-    margin: 0 auto;
     text-align: center;
 
     position: relative;
     display: none;
 }
 
-#menu .viewer li h3 {
+#menu1 .viewer li h3 {
     font-size: 26px;
     margin-bottom: 4px;
 }
 
-#menu .viewer li p {
+#menu1 .viewer li p {
     font-size: 17px;
     font-family: 'MaruBuriSemiBold';
-    margin-bottom: 12px;
+    margin-bottom: 20px;
 }
 
 
-#menu .viewer li p b {
+#menu1 .viewer li p b {
     font-family: 'MaruBuriBold';
     font-size: 18px;
- }
+}
 
- #menu .viewer li p select {
-
+#menu1 .viewer li p select {
     width: 41%;
-
     font-size: 20px;
     border: 2px solid #BEA987;
     margin-top: 20px;
- }
+}
 
-#menu .viewer li h4 {
+#menu1 .viewer li h4 {
     font-size: 24px;
-/*     border-bottom: 2px solid #3E3A39; */
-    margin-top: 20px;
-    margin-bottom: 4px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#menu1 .viewer li .cart {
     display: inline-block;
-    font-weight: bold;
-}
-
-
-#menu .viewer li a {
-    display: block;
-    font-size: 16px;
-    color: #3E3A39;
-    padding: 4px 12px;
-    width: 17%;
-    margin: 0 auto;
+    /* background-color: brown; */
+    padding: 14px 12px;
     border-radius: 5px;
-
-    font-weight: bold;
-    color: #3E3A39;
 }
 
-#menu .viewer li a::after {
+#menu1 .viewer li .cart a {
+
+    font-size: 16px;
+    font-weight: bold;
+    color: #3E3A39;
+
+    display: inline-block;
+
+    position: relative;
+    /* 가상요소의 기준! */
+}
+
+#menu1 .viewer li .cart a::after {
     content: "";
-    width: 80%;
+    width: 100%;
     height: 2px;
     background-color: #3E3A39;
-    display: inline-block;
+    display: block;
+
+    position: absolute;
+    left: 0;
+    top: 110%;
 }
 
-#menu .viewer li a:hover {
+#menu1 .viewer li .cart:hover {
     background-color: #774C09;
+}
+
+#menu1 .viewer li .cart:hover a {
     color: #BEA987;
-    border-radius: 5px;
 }
 
 /* 버튼~ */
 
-#menu .menu-btn {
+#menu1 .menu-btn {
 
     position: absolute;
-    top: 120px;
+    top: 33%;
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
     width: 130%;
 }
 
-#menu .menu-btn img {
+#menu1 .menu-btn img {
     width: 30px;
     display: block;
     cursor: pointer;
 }
 
-#menu .menu-btn img.btn-prev {
+#menu1 .menu-btn img.btn-prev {
     float: left;
 }
-#menu .menu-btn img.btn-next {
+
+#menu1 .menu-btn img.btn-next {
     float: right;
 }
 
 /* ********* */
 
-.bg2 {
-    background-image: url(../img/bg-bottom.png);
-     background-repeat: no-repeat;
-     background-position: bottom;
-     background-size: 100% 41%;
- } 
- 
- #menu2 {
-    /*  outline: 1px solid salmon; */
-     width: 100%;
-   
- }
- 
- #menu2 .viewer {
-    /*  outline: 1px solid rgb(63, 24, 134); */
-     width: 30%;
-     margin: 90px auto;
-     height: 540px;
- }
- 
- #menu2 .viewer .box-wrap {
-     position: relative;
- }
- 
- #menu2 .viewer li {
-     position: absolute;
-     top: 0;
-     left: 0;
-     width: 100%;
- }
- 
- #menu2 .viewer li.co1 {
-     left: -200%;
-     transform: scale(0.6);
-     opacity: 0.5;
- }
- 
- #menu2 .viewer li.co2 {
-     left: -110%;
-     transform: scale(0.8);
-     opacity: 0.7;
- 
- }
- 
- #menu2 .viewer li.co3 {
-     left: 0;
-     transform: (1);
- }
- 
- #menu2 .viewer li.co4 {
-     left: 110%;
-     transform: scale(0.8);
-     opacity: 0.7;
- }
- 
- #menu2 .viewer li.co5 {
-     left: 200%;
-     transform: scale(0.6);
-     opacity: 0.5;
- }
- 
- #menu2 .viewer li .img-box {
- /*     outline: 2px solid plum; */
-     width: 100%;
-     margin: 0 auto 20px;
- }
- 
- #menu2 .viewer li .img-box img {
-     width: 100%;
-     display: block;
- }
- 
- #menu2 .viewer li .caption { 
-     width: 100%;
-     margin: 0 auto;
-     text-align: center;
- 
-     position: relative;
-     display: none;
- }
- 
- #menu2 .viewer li h3 {
-     font-size: 26px;
-     margin-bottom: 4px;
- }
- 
- #menu2 .viewer li p {
-     font-size: 17px;
-     font-family: 'MaruBuriSemiBold';
-     margin-bottom: 12px;
- }
- 
- 
- #menu2 .viewer li p b {
-     font-family: 'MaruBuriBold';
-     font-size: 18px;
-  }
- 
-  #menu2 .viewer li p select {
- 
-     width: 41%;
- 
-     font-size: 20px;
-     border: 2px solid #BEA987;
-     margin-top: 20px;
-  }
- 
- #menu2 .viewer li h4 {
-     font-size: 24px;
- /*     border-bottom: 2px solid #3E3A39; */
-     margin-top: 20px;
-     margin-bottom: 4px;
-     display: inline-block;
-     font-weight: bold;
- }
- 
- 
- #menu2 .viewer li a {
-     display: block;
-     font-size: 16px;
-     color: #3E3A39;
-     padding: 4px 12px;
-     width: 17%;
-     margin: 0 auto;
- 
-     font-weight: bold;
-     color: #3E3A39;
-     border-radius: 5px;
- }
- 
- #menu2 .viewer li a::after {
-     content: "";
-     width: 80%;
-     height: 2px;
-     background-color: #3E3A39;
-     display: inline-block;
- }
- 
- #menu2 .viewer li a:hover {
-     background-color: #774C09;
-     color: #BEA987;
-     border-radius: 5px;
- }
- 
 
- /* 버튼~ */
- 
- #menu2 .menu-btn2 {
- 
-     position: absolute;
-     top: 120px;
-     left: 50%;
-     transform: translateX(-50%);
-     width: 126%;
- }
- 
- #menu2 .menu-btn2 img {
-     width: 30px;
-     display: block;
-     cursor: pointer;
- }
- 
- #menu2 .menu-btn2 img.btn-prev2 {
-     float: left;
- }
- #menu2 .menu-btn2 img.btn-next2 {
-     float: right;
- }
- 
+
+#menu2 {
+    /*  outline: 1px solid salmon; */
+    width: 100%;
+    margin-top: 90px;
+    padding-bottom: 80px;
+    display: none;
+}
+
+#menu2 .viewer {
+    /*   outline: 3px solid rgb(63, 24, 134); */
+    /* width: 30%; */
+    width: 440px;
+    margin: 0 auto;
+    height: 510px;
+    /* 높이는 다시 설정 */
+
+    position: relative;
+}
+
+
+
+#menu2 .viewer li {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#menu2 .viewer li.co1 {
+    left: -200%;
+    transform: scale(0.5);
+    opacity: 0;
+}
+
+#menu2 .viewer li.co2 {
+    left: -110%;
+    transform: scale(0.7);
+    opacity: 0.7;
+
+}
+
+#menu2 .viewer li.co3 {
+    left: 0;
+    transform: scale(1);
+}
+
+#menu2 .viewer li.co4 {
+    left: 110%;
+    transform: scale(0.7);
+    opacity: 0.7;
+}
+
+#menu2 .viewer li.co5 {
+    left: 200%;
+    transform: scale(0.5);
+    opacity: 0;
+}
+
+#menu2 .viewer li .img-box {
+    /*     outline: 2px solid plum; */
+    /* width: 90%;
+    margin: 0 auto 20px; */
+
+    margin-bottom: 20px;
+}
+
+#menu2 .viewer li .img-box img {
+    width: 100%;
+    display: block;
+}
+
+#menu2 .viewer li .caption {
+    /*   outline: 1px solid palegreen; */
+    width: 100%;
+    text-align: center;
+
+    position: relative;
+    display: none;
+}
+
+#menu2 .viewer li h3 {
+    font-size: 26px;
+    margin-bottom: 4px;
+}
+
+#menu2 .viewer li p {
+    font-size: 17px;
+    font-family: 'MaruBuriSemiBold';
+    margin-bottom: 20px;
+}
+
+
+#menu2 .viewer li p b {
+    font-family: 'MaruBuriBold';
+    font-size: 18px;
+}
+
+#menu2 .viewer li p select {
+    width: 41%;
+    font-size: 20px;
+    border: 2px solid #BEA987;
+    margin-top: 20px;
+}
+
+#menu2 .viewer li h4 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#menu2 .viewer li .cart {
+    display: inline-block;
+    /* background-color: brown; */
+    padding: 14px 12px;
+    border-radius: 5px;
+}
+
+#menu2 .viewer li .cart a {
+
+    font-size: 16px;
+    font-weight: bold;
+    color: #3E3A39;
+
+    display: inline-block;
+
+    position: relative;
+    /* 가상요소의 기준! */
+}
+
+#menu2 .viewer li .cart a::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: #3E3A39;
+    display: block;
+
+    position: absolute;
+    left: 0;
+    top: 110%;
+}
+
+#menu2 .viewer li .cart:hover {
+    background-color: #774C09;
+}
+
+#menu2 .viewer li .cart:hover a {
+    color: #BEA987;
+}
+
+/* 버튼~ */
+
+#menu2 .menu-btn {
+
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 130%;
+}
+
+#menu2 .menu-btn img {
+    width: 30px;
+    display: block;
+    cursor: pointer;
+}
+
+#menu2 .menu-btn img.btn-prev {
+    float: left;
+}
+
+#menu2 .menu-btn img.btn-next {
+    float: right;
+}
