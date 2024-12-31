@@ -183,14 +183,14 @@ $(document).ready(function () {
 
     // 영역5. 인스타 flow
 
-    var autocall = setInterval(flow, 15);
+    var autocall = setInterval(flow, 35);
 
     $('.flow li').hover(function () {
         clearInterval(autocall);
 
     }, function () {
 
-        autocall = setInterval(flow, 15);
+        autocall = setInterval(flow, 35);
 
     });
 
