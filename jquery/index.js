@@ -124,7 +124,7 @@ $(document).ready(function () {
     
        /* 영역3 로스팅 시간 카운트 */
 
-       var countDownDate = new Date("Jan 1, 2025 15:37:25").getTime();
+       var countDownDate = new Date("Apr 1, 2025 15:37:25").getTime();
 
        var x = setInterval(function() {
        
