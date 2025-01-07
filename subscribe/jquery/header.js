@@ -1,4 +1,4 @@
-//alert('연결~~~~~~~~~~');
+
 
 $(document).ready(function(){
     $('.gnb > li').hover(function(){
