@@ -90,13 +90,6 @@
 }
 
 .tab-content>article {
-    /* outline: 1px solid rgb(193, 21, 58); */
-    /* background-color: yellow; */
-    /* background-image: url(../img/bg-bottom.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: 100% 60%; */
-
     background-image: url(../img/bg-bottom_2.png);
     background-repeat: repeat-x;
     background-position: bottom;
@@ -105,15 +98,14 @@
 }
 
 #menu1 {
-    /*  outline: 1px solid salmon; */
+
     width: 100%;
 
     padding-bottom: 80px;
 }
 
 #menu1 .viewer {
-    /*   outline: 3px solid rgb(63, 24, 134); */
-    /* width: 30%; */
+
     width: 440px;
     margin: 0 auto;
     height: 510px;
@@ -122,9 +114,6 @@
     position: relative;
 }
 
-#menu1 .viewer .box-wrap {
-    /* position: relative; */
-}
 
 #menu1 .viewer li {
     position: absolute;
@@ -164,10 +153,6 @@
 }
 
 #menu1 .viewer li .img-box {
-    /*     outline: 2px solid plum; */
-    /* width: 90%;
-    margin: 0 auto 20px; */
-
     margin-bottom: 20px;
 }
 
@@ -177,7 +162,7 @@
 }
 
 #menu1 .viewer li .caption {
-    /*   outline: 1px solid palegreen; */
+
     width: 100%;
     text-align: center;
 
@@ -217,7 +202,6 @@
 
 #menu1 .viewer li .cart {
     display: inline-block;
-    /* background-color: brown; */
     padding: 14px 12px;
     border-radius: 5px;
 }
@@ -231,7 +215,6 @@
     display: inline-block;
 
     position: relative;
-    /* 가상요소의 기준! */
 }
 
 #menu1 .viewer li .cart a::after {
@@ -284,7 +267,6 @@
 
 
 #menu2 {
-    /*  outline: 1px solid salmon; */
     width: 100%;
     margin-top: 90px;
     padding-bottom: 80px;
@@ -292,8 +274,6 @@
 }
 
 #menu2 .viewer {
-    /*   outline: 3px solid rgb(63, 24, 134); */
-    /* width: 30%; */
     width: 440px;
     margin: 0 auto;
     height: 510px;
@@ -342,10 +322,6 @@
 }
 
 #menu2 .viewer li .img-box {
-    /*     outline: 2px solid plum; */
-    /* width: 90%;
-    margin: 0 auto 20px; */
-
     margin-bottom: 20px;
 }
 
@@ -355,7 +331,6 @@
 }
 
 #menu2 .viewer li .caption {
-    /*   outline: 1px solid palegreen; */
     width: 100%;
     text-align: center;
 
@@ -395,7 +370,6 @@
 
 #menu2 .viewer li .cart {
     display: inline-block;
-    /* background-color: brown; */
     padding: 14px 12px;
     border-radius: 5px;
 }
@@ -409,7 +383,6 @@
     display: inline-block;
 
     position: relative;
-    /* 가상요소의 기준! */
 }
 
 #menu2 .viewer li .cart a::after {
