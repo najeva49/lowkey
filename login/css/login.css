@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+
+article {
+    margin: 160px auto 124px;
+    text-align: center;
+    width: 355px;
+}
+
+article h2 {
+    font-size: 42px;
+
+}
+
+article form {
+    margin-top: 40px;
+    margin-bottom: 14px;
+}
+
+
+article fieldset {
+    border: solid 0px #99999900;
+}
+
+input[placeholder] {
+    background-color: #99999900;
+    padding: 10px 70px;
+    border: 1px solid #393838;
+    font-family: 'MaruBuri';
+    font-size: 16px;
+}
+
+article fieldset .id {
+    display: inline-block;
+    border-bottom: solid 0px #99999900;
+}
+
+article fieldset .id>input[placeholder] {
+    border-bottom: solid 0px;
+}
+
+article .sumit {
+    margin-top: 12px;
+}
+
+article .sumit a {
+    width: 100%;
+}
+
+article .sumit a>input {
+    width: 100%;
+    background-color: #774d0994;
+    padding: 10px 0;
+    color: #393838;
+    font-family: 'MaruBuri';
+    font-size: 18px;
+    font-weight: bold;
+    border: 0px solid #393838;
+    text-align: center;
+} 
+
+article .sumit a>input:hover {
+    cursor: pointer;
+}
+
+article .find {
+    margin-bottom: 8px;
+}
+article .find a {
+    color: #444444;
+    font-size: 14px;
+    font-weight: bold;
+}
+article .find a~a {
+    padding-left: 8px;
+}
+.log-sns {
+    margin: 10px 0;
+}
+.log-sns a {
+    display: inline-block;
+    width: 50px;
+}
+.log-sns > a~a {
+    margin-left: 15px;
+}
+.log-sns a img {
+    width: 100%;
+}
+
+.txt-box {
+    width: 100%;
+    margin-top: 40px;
+    display: inline-block;
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+    color: #444444;
+}
+
+.txt-box p span {
+    color: #939393;
+}
+
+.join {
+    width: 100%;
+    margin:  10px auto;
+}
+.join a {
+    width: 100%;
+    display: block;
+    background-color: #774d0994;
+    padding: 10px 0;
+    color: #393838;
+    font-size: 18px;
+    font-weight: bold;
+}
