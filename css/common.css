@@ -38,7 +38,7 @@ body {
     font-family: 'MaruBuri';
     color: #333;
 
-    background-image: url(../img/back-img.jpg);
+    background-image: url(/lowkey/img/back-img.jpg);
 }
 
 h1, h2, h3, h4, h5, h6 {
