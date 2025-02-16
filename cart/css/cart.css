@@ -1,1 +1,65 @@
 @charset "utf-8";
+
+section {
+    margin: 160px auto 0;
+    width: 80%;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 60px;
+}
+
+.bag {
+
+    margin: 0 auto;
+    padding: 135px 0;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+
+.bag p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.oder {
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 160px;
+    text-align: center;
+
+}
+
+.oder li {
+
+    float: none;
+    display: inline-block;
+
+}
+
+.oder li:nth-child(1) {
+margin-left: 153px;
+}
+
+.oder li:nth-child(2) {
+    margin-left: 20px;
+    }
+    
+.oder li:last-child {
+    float: right;
+}
+
+.oder li a {
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    background-color: #774d0994;
+}
+
+.oder li a:hover {
+    cursor: pointer;
+}

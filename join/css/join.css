@@ -1,1 +1,145 @@
 @charset "utf-8";
+
+section {
+    margin: 160px auto 60px;
+    width: 680px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 60px;
+}
+
+section ul li {
+    float: none;
+}
+
+fieldset {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 40px 40px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 0px solid black;
+    border-right: 0px solid black;
+    margin-bottom: 30px;
+
+}
+
+fieldset label {
+    /*    outline: 1px solid rgb(50, 8, 100); */
+    display: inline-block;
+    width: 150px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+fieldset input[placeholder] {
+    width: 340px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0 20px;
+}
+
+fieldset ul li:nth-child(5) input[placeholder] {
+    width: 200px;
+    margin-right: 60px;
+}
+
+fieldset ul li:nth-child(5)>button {
+    width: 75px;
+    height: 26px;
+    font-family: 'MaruBuri';
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    background-color: #774d0994;
+    border: 0px solid #9999;
+}
+
+fieldset ul li:nth-child(6) label {
+    font-size: 0px;
+}
+
+fieldset ul li:nth-child(6) input[placeholder] {
+    width: 200px;
+    margin-right: 60px;
+}
+
+fieldset ul li:nth-child(6)>button {
+    width: 75px;
+    height: 26px;
+    font-family: 'MaruBuri';
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    background-color: #774d0994;
+    border: 0px solid #9999;
+}
+
+fieldset ul li:nth-child(7) input[placeholder] {
+    width: 200px;
+    margin-right: 40px;
+}
+
+fieldset ul li:nth-child(7)>button {
+    width: 95px;
+    height: 26px;
+    font-family: 'MaruBuri';
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    background-color: #774d0994;
+    border: 0px solid #9999;
+}
+
+fieldset ul li:nth-child(8) label {
+    font-size: 0px;
+}
+
+.check-box {}
+.check-box .check {
+    width: 380px;
+    margin: 16px 0;
+    margin-left: 154px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.check-box .check li {
+    margin-bottom: 8px;
+}
+
+.check-box .check li:last-child {
+font-size: 16px;
+}
+
+.check-box .check a {
+    float: right;
+    font-size: 12px;
+    font-weight: 600;
+    color: #424242;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #424242;
+}
+
+.join {
+    margin: 0 auto;
+}
+
+.join > input {
+    padding: 14px 80px;
+    margin: 0 auto;
+    display: block;
+    background-color:  #774d0994;
+    border: 0px solid #424242;
+    font-family: 'MaruBuri';
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
