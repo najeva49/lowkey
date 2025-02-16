@@ -66,7 +66,7 @@ section {
 
     float: left;
     width: 50%;
-    margin-top: 30px;
+    margin-top: 140px;
 }
 
 .bean .view {
@@ -175,7 +175,7 @@ section {
 .txt {
     float: right;
     width: 50%;
-    margin-top: 30px;
+    margin-top: 90px;
 }
 
 .txt .letter {}
@@ -211,6 +211,9 @@ section {
     font-size: 20px;
 }
 
+.coffee-txt {
+    margin-top: 120px;
+}
 
 .sud-con {
     margin: 40px auto 0;
@@ -218,7 +221,7 @@ section {
 
 .sud-con .con {
     float: left;
-    width: 50%;
+    width: 33.333%;
 }
 
 .sud-con .con:last-child {
@@ -260,7 +263,7 @@ section {
 
 .sud-con .con .click a {
     color: #3E3A39;
-    border-bottom: 1px solid #3E3A39;
+    font-weight: bold;
     padding: 4px 8px;
 }
 
@@ -272,47 +275,6 @@ section {
     font-weight: bold;
 
     color: #574906;
-}
-
-
-
-
-.banner {
-    width: 100%;
-    max-width: 1920px;
-
-    height: 14%;
-    background-image: url(../img/banner-1.png);
-    background-repeat: no-repeat;
-
-    position: absolute;
-    top: 86%;
-    left: 0;
-
-}
-
-.banner .banne-box {}
-
-.banner a .banner-txt {
-transform: translateY(50%);
-}
-
-.banner a .banner-txt p {
-    font-size: 12px;
-    font-family: 'MaruBuriLight';
-    font-weight: bold;
-    color: #d9d9d9;
-}
-
-.banner a .banner-txt h4 {
-    font-size: 17px;
-    font-weight: bold;
-    color: #d9d9d9;
-}
-
-.banner a .banner-txt h4 span {
-    color: #A88E65;
-    font-size: 20px;
 }
 
 /* *******.roasting****** */
