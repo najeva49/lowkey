@@ -192,10 +192,13 @@ padding: 8px 0;
 .product ul li .pay-box a {
     float: right;
     font-size: 18px;
+    font-weight: bold;
     color: #3E3A39;
+    padding: 4px;
 }
 
 .product ul li .pay-box a:hover {
     background-color: #774C09;
     color: #BEA987;
+    border-radius: 4px;
 }
