@@ -217,12 +217,6 @@ section .cl1 {
 
 
 
-.txt2 {
-    background-image: url(../img/paper2.jpg);
-    background-size: cover;
-}  
-
-
 
 
  
@@ -249,7 +243,7 @@ section .cl2 .tag {
 
 .txt2 {
     width: 50%;
-    background-image: url(../img/paper2.png);
+    background-image: url(../img/paper2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
    
