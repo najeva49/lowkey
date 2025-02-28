@@ -3,7 +3,7 @@ body {
     max-width: 1920px;
     margin: 0 aitp;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 
