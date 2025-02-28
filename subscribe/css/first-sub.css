@@ -91,7 +91,7 @@
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
-    background-image: url(../img/back-1.png);
+    background-image: url(../img/back-1.jpg);
     background-size: cover;
 }
 
@@ -100,7 +100,7 @@
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
-    background-image: url(../img/back-2.png);
+    background-image: url(../img/back-2.jpg);
     background-size: cover;
 }
 
@@ -109,7 +109,7 @@
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
-    background-image: url(../img/back-3.png);
+    background-image: url(../img/back-3.jpg);
     background-size: cover;
 }
 
