@@ -168,7 +168,7 @@ section .cl1 {
 
 .txt1 {
     width: 50%;
-    background-image: url(../img/paper1.png);
+    background-image: url(../img/paper1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
    
@@ -218,7 +218,7 @@ section .cl1 {
 
 
 .txt2 {
-    background-image: url(../img/paper2.png);
+    background-image: url(../img/paper2.jpg);
     background-size: cover;
 }  
 
